@@ -514,8 +514,6 @@ void ModelFactory::CompileDataAtPosition(int _id, int _size, const void *_data, 
 
 //Compile and index vertex co-ordinates which belong to a material
 void ModelFactory::CompileVerticies(string _material)
-
-	//i love penis
 {
 	//Loop through each of the vertex positions found for the material
 	vector<glm::vec3> faceVerticiesMat = m_faceVertices[_material];
